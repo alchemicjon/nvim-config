@@ -4,7 +4,7 @@ return {
     opts = {
       manual_mode = false,
       detection_methods = { "pattern" },
-      patterns = { ">Projects", ".git" },
+      patterns = { ".git" },
       silent_chdir = false,
     },
   },

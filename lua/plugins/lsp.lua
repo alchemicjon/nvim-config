@@ -8,6 +8,7 @@ return {
         root_markers = { ".git" },
       },
       rubocop = {
+        enabled = false,
         mason = false,
         cmd = { "bundle", "exec", "rubocop", "--lsp" },
       },
