@@ -1,3 +1,6 @@
+-- This requires manual installation of ruby-lsp
+-- This includes when ruby's version is updated
+-- `gem install ruby-lsp`
 return {
   "neovim/nvim-lspconfig",
   opts = {
